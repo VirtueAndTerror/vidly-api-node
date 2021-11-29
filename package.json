@@ -1,7 +1,7 @@
 {
-  "name": "vidly",
+  "name": "retro-movie-rental",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the backend of an imaginary video rental app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,7 +9,7 @@
     "test": "jest --watchAll --verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arnaldo Díaz",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",

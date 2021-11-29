@@ -1,12 +1,19 @@
 ## Introduction
 
-This project is the backend of Vidly, an imaginary video rental app. I've used Vidly as an example in several of my online programming courses, such as:
+This project is an updated and refactored version of the backend of Vidly, an imaginary video rental app. Mosh Hamedani has used Vidly as an example in several of my online programming courses, such as:
 
 - https://codewithmosh.com/p/mastering-react
 - https://codewithmosh.com/p/the-complete-node-js-course
 - https://codewithmosh.com/p/asp-net-mvc
 
 This is the implementation of Vidly in Node.js.
+
+## What I have lerned
+
+-Implement MongoDB built-in transactions.
+-Implement authentication with x-auth-token http header.
+-Schema validation using Joi library.
+-Logging uncoughtExceptions with winston.js
 
 ## Setup
 
