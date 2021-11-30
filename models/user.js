@@ -27,6 +27,7 @@ const userSchema = new mongoose.Schema({
 });
 
 userSchema.methods.generateAuthToken = function () {
+  // Since generateAuthToken() will be a method in the User object, we can reference to it with the keyword 'this'.
   const token = jwt.sign(
     {
       _id: this._id,
